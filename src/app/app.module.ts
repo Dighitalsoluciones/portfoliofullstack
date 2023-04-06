@@ -8,6 +8,7 @@ import { LoginComponent } from './components/login/login.component';
 import { EncabezadoComponent } from './components/encabezado/encabezado.component';
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { TarjetacentralComponent } from './components/tarjetacentral/tarjetacentral.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     LoginComponent,
     EncabezadoComponent,
     TarjetasComponent,
-    NavbarComponent
+    NavbarComponent,
+    TarjetacentralComponent
   ],
   imports: [
     BrowserModule,
