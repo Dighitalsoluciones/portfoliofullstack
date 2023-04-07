@@ -196,9 +196,10 @@ body{margin-top:20px;}
     text-align: center;
     font-size: 21px;
 }
-
+/*Aca se modifica la sombra al pasar el mouse*/
 .box-shadow-only-hover:hover {
   box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.1);
+  background-color: rgb(173, 173, 204);
 }
 .border-color-gray {
     border-color: #f2f3fa !important;
