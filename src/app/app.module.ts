@@ -9,6 +9,9 @@ import { EncabezadoComponent } from './components/encabezado/encabezado.componen
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { TarjetacentralComponent } from './components/tarjetacentral/tarjetacentral.component';
+import { EmpresasComponent } from './components/empresas/empresas.component';
+import { CvComponent } from './components/cv/cv.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { TarjetacentralComponent } from './components/tarjetacentral/tarjetacent
     EncabezadoComponent,
     TarjetasComponent,
     NavbarComponent,
-    TarjetacentralComponent
+    TarjetacentralComponent,
+    EmpresasComponent,
+    CvComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
